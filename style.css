@@ -1,0 +1,62 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/*NORMALIZACIÓN*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #262629;
+  --secondary-color: #e6e6e6;
+  --bg-color: #ededed;
+  --ff-text: "Inter", sans-serif;
+}
+.boton {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: #262629;
+  position: relative;
+  left: 5px;
+}
+.first,
+.second {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin: 10px;
+  width: 285px;
+  border-radius: 5px;
+}
+.trash1 {
+  border: none;
+  position: relative;
+  left: 200px;
+}
+.trash2 {
+  border: none;
+  position: relative;
+  left: 141px;
+}
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--ff-text);
+}
+#text {
+  position: relative;
+  left: 10px;
+  bottom: 15px;
+}
+h1 {
+  position: relative;
+  bottom: 15px;
+}
+input {
+  padding: 8px 8px;
+  border-radius: 5px;
+  border-color: var(--secondary-color);
+}
